@@ -67,7 +67,7 @@ void loop() {
   } 
   if (millis() - loopDelay > 20000){
     loopDelay = millis();
-    Serial.println("Loop");
+    Serial.println("Loop 3");
     checkStatus_wifi();
     printCurrentNet();
     checkStatus_mqtt();
